@@ -3,7 +3,7 @@
 
 
 class Square:
-    "" class Square that defines a square"""
+    """ class Square that defines a square"""
     def __init__(self, size=0):
         """ init square
 
@@ -21,8 +21,8 @@ class Square:
         """
         return self.__size
 
-    @size.setter
-    def size(self, value):
+     @size.setter
+     def size(self, value):
         """Sets value into size, must be int.
 
         Args:
